@@ -36,6 +36,26 @@ width: 150px;
 heigth: 200px;
 padding: 10px;
 }
+.ad {
+color: #550d16;
+font-family: Helvatica;
+
+}
+.eposta {
+color: #550d16;
+font-family: Helvatica;
+
+}
+.rol {
+color: #550d16;
+font-family: Helvatica;
+
+}
+.mesaj {
+color: #550d16;
+font-family: Helvatica;
+
+}
 
 
 </style>
@@ -63,19 +83,19 @@ padding: 10px;
 <br>
 <form name="contact" method="POST" data-netlify="true">
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
+    <label class="ad"><b>Your Name: </b><input type="text" name="name" /></label>   
   </p>
   <p>
-    <label>Your Email: <input type="email" name="email" /></label>
+    <label class="eposta"><b>Your Email: </b><input type="email" name="email" /></label>
   </p>
   <p>
-    <label>Your Role: <select name="role[]" multiple>
+    <label class="rol"><b>Your Role: </b><select name="role[]" multiple>
       <option value="leader">Leader</option>
       <option value="follower">Follower</option>
     </select></label>
   </p>
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+    <label class="mesaj"><b>Message: </b><textarea name="message"></textarea></label>
   </p>
   <p>
     <button type="submit">Send</button>
