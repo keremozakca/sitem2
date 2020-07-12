@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+
+<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css' integrity='sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk' crossorigin='anonymous'>
+
+</head>
+<body style="background-color: teal;">
+<br><br><center>
+<h1 for="exampleInputEmail1" style="color: white;">Like Page</h1>
+<br><br><br>
+<div style="border: 3px solid; padding-bottom: 10px;">
+<h5 style="display: inline-block; color: #ffd700;">Beğeni Sayısı : </h5><p id="c" class="container w-25 mt-5 border rounded shadow-sm p-3" style="border-radius: 30px; display: inline-block; color: white; margin-left: 20px; font-size: 20pt;">0</p><br>
+<button onclick="likee()" class="btn btn-success">Beğen</button>
+
+
+
+
+
+
+
+
+
+
+
+
+</center>
+<script>
+	
+	var elp = document.getElementById("c");
+	var like = 0;
+	function likee(){
+		like += 1;
+		elp.innerHTML = like;
+	}
+	//elp.innerHTML = like;
+
+
+
+</script>
+</body>
+</html>
