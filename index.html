@@ -8,6 +8,11 @@
 alert("WELCOME TO MY BLOG");
 </script>
 <style>
+
+@font-face {
+font-family: "Roboto";
+src: url('Roboto-Light.ttf')format("truetype");
+}
 h1 {
 color: gray;
 font-family: Roboto;
@@ -79,10 +84,6 @@ font-family: Roboto;
 .iletisim-formu {
 float:right;
 }
-@font-face {
-font-family: "Roboto";
-src: url('\fonts\Roboto-Light.ttf')format("truetype");
-}
 .logo {
 display: inline-block;
 height: 50px;
@@ -133,6 +134,9 @@ text-decoration: none;
 <br="line1">
 <p class="tarih">12/07/2020 Pazar (Güncel Yazı)</p>
 </div>
+<div class="projects">
+ <p style="display:inline-block;">Projelerim</p><hr style="display:inline-block;"> 
+</div> 
 <div class="iletisim-formu">
 <br>
 <form name="contact" method="POST" data-netlify="true">
