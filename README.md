@@ -145,3 +145,6 @@ Muhammed de, cebinden bir Kuran çıkardı ve sana ayeti okudu:"Ey inananlar! B�
 < [Holiqan#7673] Oradasın değil mi
 
 < [Holiqan#7673] Tanrının varlığı bende ağır bastığından deistim.
+
+@7727562 Walkers kabile map
+@7692890  Developers kabile oda kendime ait olan map
